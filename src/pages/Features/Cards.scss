@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+.cards {
+  display: flex;
+  gap: 96px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;      // ← добавлено, как ты просил
+  padding: 60px 20px;
+  max-width: 1600px;
+  margin: 0 auto;
+
+  .card {
+    max-width: 400px;
+    max-height: 210px;
+    background: rgba(255, 255, 255, 0.02);
+    padding: 16px;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease;
+
+    &:hover {
+      border-color: #7c3aed;
+      transform: translateY(-8px);
+      box-shadow: 0 20px 40px rgba(124, 58, 237, 0.15);
+    }
+
+    img {
+      width: 60px;
+      height: 60px;
+      object-fit: contain;
+      margin-bottom: 20px;
+    }
+
+    h3 {
+      font-family: 'Sora', sans-serif;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 100%;
+      letter-spacing: -0.03em;
+      color: #F6F3FF;
+      margin: 16px 0 12px;
+    }
+
+    p {
+      font-family: 'Sora', sans-serif;
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 24px;
+      color: #ADA8C3;
+      margin: 0;
+    }
+  }
+}
+@media (max-width:1440px) {
+  .cards{
+    max-width: 1400px;
+    gap:  90px 0px;
+  }
+  .card{
+    width: 347px;
+    height: 210px;
+  }
+}
+@media (max-width:1200px) {
+  .cards{
+    .card{
+      width: 320px;
+      h3{
+        font-family: Sora;
+font-weight: 400;
+font-style: Regular;
+font-size: 24px;
+line-height: 100%;
+letter-spacing: -3%;
+
+      }p{
+        font-family: Sora;
+font-weight: 300;
+font-style: Light;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0%;
+
+      }
+    }
+  }
+}
+/* Адаптив — всё вынесено отдельно, меняй размеры как хочешь */
+@media (max-width: 1024px) {
+  .cards {
+    .card{
+      width: 247px;
+      h3{
+        font-family: Sora;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 18px;
+line-height: 32px;
+letter-spacing: 0%;
+
+      }p{
+        font-family: Sora;
+font-weight: 300;
+font-style: Light;
+font-size: 12px;
+line-height: 24px;
+letter-spacing: 0%;
+
+      }
+    }
+  }
+}
+
+@media (max-width: 375px) {
+  .cards {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    padding: 40px 20px;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+}

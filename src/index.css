@@ -8,7 +8,36 @@
   box-sizing: border-box;
 }
 body{
-  
+  color: white;
  background-color: #0E0C15;
 ;
+}
+/* 1. Базовая настройка — разрешаем скролл только когда нужно */
+html {
+  height: 100%;
+  overflow-y: auto;           /* разрешаем вертикальный скролл */
+  -webkit-overflow-scrolling: touch; /* плавный скролл на iOS */
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  overflow-x: hidden;         /* только горизонтальный скролл запрещён навсегда */
+  overflow-y: auto;           /* вертикальный — только если контент не влезает */
+}
+
+#root {
+  min-height: 100vh;
+}
+
+/* 2. Картинки никогда не должны ломать вёрстку */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* 3. Если хочешь 100% без горизонтального скролла даже при 100vw + padding */
+* {
+  box-sizing: border-box;
 }

@@ -1,14 +1,22 @@
 import React from 'react';
-import Header from './components/Header';
-import Home from './components/Home';
-import MainLayout from '../src/layout/MainLayout'
+import Header from './components/Header'; // если используешь внутри MainLayout
+import MainLayout from './layout/MainLayout'; // ← правильный путь (src не нужен)
 import './App.css';
+import { Route, Routes } from 'react-router-dom'; // ← dom в конце!
+
+import Home from './components/Home';
+import Features from './pages/Features/Features';
 
 function App() {
   return (
-    <div className="App">
-      <MainLayout/>
-    </div>
+    <Routes>
+      <Route element={<MainLayout />}>
+        <Route path="/" element={<Home />} />           
+        <Route index element={<Home />} />              
+        <Route path="/features" element={<Features />} />
+      </Route>
+
+    </Routes>
   );
 }
 

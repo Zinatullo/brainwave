@@ -11,7 +11,6 @@ export default function MainLayout() {
       <Header />
       <main>
         <Outlet /> 
-        <Home/>
       </main>
       <Footer />
     </>
