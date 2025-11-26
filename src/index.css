@@ -3,8 +3,7 @@
   margin: 0 auto;
 }
 *{
-  margin: 0;
-  padding: 0;
+  color: #ffffff;
   box-sizing: border-box;
 }
 body{
@@ -12,7 +11,6 @@ body{
  background-color: #0E0C15;
 ;
 }
-/* 1. Базовая настройка — разрешаем скролл только когда нужно */
 html {
   height: 100%;
   overflow-y: auto;           /* разрешаем вертикальный скролл */

@@ -1,0 +1,99 @@
+.chat-section {
+  color: white;
+  padding: 92px 32px;
+}
+
+.chat-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+}
+
+.chat-header {
+  text-align: center;
+}
+
+.chat-title {
+  max-width: 620px;
+}
+
+.cards-wrapper {
+  display: flex;
+  gap: 48px;
+  justify-content: space-evenly;
+  min-width: 1440px;
+  margin: 0 auto
+  ;
+}
+
+.chat-card {
+  padding: 40px;
+  border: 1px solid rgb(47, 205, 219);
+  border-radius: 16px;
+  display: inline-block;
+    background: rgba(255, 255, 255, 0.02);
+  border-radius: 16px;
+  width: 384px;
+  height: 366px;
+  border-radius: 20px;
+  text-align: left;
+  }
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.card-title {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.card-text {
+  font-size: 14px;
+  color: #94a3b8;
+  line-height: 1.6;
+}
+
+.card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-icon {
+  width: 48px;
+  height: auto;
+}
+
+.card-link {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  cursor: pointer;
+}
+
+.arrow-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.logos {
+  display: flex;
+  gap: 16px;
+  padding: 72px 0;
+}
+
+.logos img {
+  height: 40px;
+  width: auto;
+}
+

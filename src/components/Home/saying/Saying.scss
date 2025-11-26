@@ -1,0 +1,50 @@
+.saying {
+  padding: 92px 32px;
+}
+
+.saying-inner {
+  max-width: 1400px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 72px;
+}
+
+.saying-header {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.saying-label {
+  font-size: 14px;
+  color: #94a3b8;
+  text-transform: uppercase;
+}
+
+.saying-title {
+  font-size: 48px;
+  font-weight: 500;
+}
+
+.saying-images {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+
+.saying-img {
+  width: 740px;
+}
+
+.saying-arrows {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.saying-arrows img {
+  width: 48px;
+  cursor: pointer;
+}

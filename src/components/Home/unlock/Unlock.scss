@@ -1,0 +1,67 @@
+.unlock {
+  padding: 96px 48px;
+}
+
+.unlock-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 360px;
+}
+
+
+.unlock-text {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.unlock-title {
+  width: 366px;
+  font-size: 48px;
+  font-weight: 500;
+}
+
+.unlock-desc {
+  width: 366px;
+  font-size: 14px;
+}
+
+.unlock-btn {
+  width: 190px;
+height: 44px;
+opacity: 1;
+font-family: Source Code Pro;
+font-weight: 700;
+font-style: Bold;
+font-size: 12px;
+line-height: 20px;
+letter-spacing: 3.5%;
+text-align: center;
+text-transform: uppercase;
+
+  padding: 12px 32px;
+  border-radius: 22px;
+  background: transparent;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+.unlock-arrows {
+  display: flex;
+  gap: 8px;
+  margin-top: 120px;
+}
+
+.unlock-arrows img {
+  width: 48px;
+  height: 48px;
+}
+
+.unlock-image {
+  transform: translateX(232px);
+}
+
+.unlock-image img {
+  width: 760px;
+}

@@ -1,0 +1,40 @@
+.working {
+  color: white;
+  padding: 92px 32px;
+}
+
+.working-inner {
+  max-width: 1400px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 72px;
+}
+
+.working-header {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.working-label {
+  font-size: 14px;
+  color: #94a3b8;
+  text-transform: uppercase;
+}
+
+.working-title {
+  font-size: 48px;
+  font-weight: 500;
+}
+
+.working-row {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+
+.working-row img {
+  width: 620px;
+}

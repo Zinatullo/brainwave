@@ -1,0 +1,228 @@
+.pay{
+    margin-bottom: 300px;
+}
+.pay-title{
+    margin-top: 150px;
+    h1{
+        font-family: Sora;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 60px;
+line-height: 72px;
+letter-spacing: 0%;
+text-align: center;
+
+    }p{
+        font-family: Sora;
+font-weight: 400;
+font-style: Regular;
+font-size: 24px;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: center;
+color: #757185;
+    }
+    .pay-annually{
+        font-family: Source Code Pro;
+font-weight: 700;
+font-style: Bold;
+font-size: 12px;
+line-height: 20px;
+letter-spacing: 3.5%;
+text-align: center;
+text-transform: uppercase;
+background: #252134;
+width: 148px;
+height: 40px;
+gap: 10px;
+opacity: 1;
+padding-top: 12px;
+padding-right: 24px;
+padding-bottom: 12px;
+padding-left: 24px;
+        border: none;
+border-radius: 8px;
+
+    }.pay-monthly{
+        border: none;
+        font-family: Source Code Pro;
+font-weight: 700;
+font-style: Bold;
+font-size: 12px;
+line-height: 20px;
+letter-spacing: 3.5%;
+text-align: center;
+text-transform: uppercase;
+width: 148px;
+height: 40px;background-color: black;
+gap: 10px;
+opacity: 1;
+padding-top: 12px;
+padding-right: 24px;
+padding-bottom: 12px;
+padding-left: 24px;
+
+    }.pay-div{
+        display: flex;
+        justify-content: center;   
+
+
+ 
+    }
+}
+.pay-cards{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.pay-card{
+    width: 410px;
+height: 676px;
+gap: 24px;
+opacity: 1;
+padding-top: 48px;
+padding-right: 32px;
+padding-bottom: 48px;
+padding-left: 32px;
+border-radius: 32px;
+border-width: 1px;
+border: 1px solid #FFFFFF1A;
+background: #0E0C15;
+.pay-divv{
+    
+    display: flex;
+    width: 346.6666564941406px;
+height: 68px;
+gap: 16px;
+opacity: 1;
+padding-top: 20px;
+padding-bottom: 20px;
+border-top-width: 1px;
+align-items: center;
+h3{
+    font-family: Sora;
+font-weight: 300;
+font-style: Light;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0%;
+
+}
+img{
+    width: 24px;
+    height: 24px;
+}
+}
+.pay-card-div{
+    display: flex;
+    align-items: center;
+    margin-top: -55px;
+
+h5{
+    font-family: Sora;
+font-weight: 400;
+font-style: Regular;
+font-size: 40px;
+line-height: 60px;
+letter-spacing: 0%;
+
+}
+    h2{
+        font-family: Sora;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 88px;
+line-height: 88px;
+letter-spacing: 0%;
+text-align: center;
+
+    }
+}
+
+    span{
+        font-family: Sora;
+font-weight: 400;
+font-style: Regular;
+font-size: 32px;
+line-height: 48px;
+letter-spacing: 0%;
+
+    }
+    p{
+        font-family: Sora;
+font-weight: 300;
+font-style: Light;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0%;
+
+        color: #FFFFFF80;
+    }
+    .pay-basic{
+        color: #FFC876;
+    }.pay-premium{
+        color: #AC6AFF;
+    }.pay-enterprise{
+        color: #FF776F;
+    }
+}
+
+
+@media (max-width:1440px) {
+    .pay-title{
+        p{
+            width: 1000px;
+            margin: 0 auto;
+        }
+    }
+}
+@media (max-width:1200px) {
+    .pay-title{
+        p{
+            width: 1200px;
+        }
+    }
+    .pay-card{
+        width: 330px;
+        .pay-divv{
+        h3{
+            font-size: 12px;
+        }
+        width: 250px;
+        }
+
+    }
+}
+@media (max-width:1024px) {
+    .pay-card{
+        width: 285px;
+        .pay-divv{
+            width: 235px;
+        }
+    }
+}
+@media (max-width:768px) {
+
+    .enterprise-pay{
+        display: none;
+    }
+    .pay-premium{
+        display: block;
+    }.pay-basic{
+        display: block;
+    }
+}
+@media (max-width:376px) {
+    .pay-nav{
+        display: none;
+    }
+    .pay-title{
+        h1{
+            font-size: 42px;
+        }
+    }
+    .premium-pay{
+        display: none;
+    }
+}

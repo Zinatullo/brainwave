@@ -1,0 +1,50 @@
+.made {
+  padding: 92px 32px;
+}
+
+.made-inner {
+  max-width: 1400px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 72px;
+}
+
+.made-header {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.made-title {
+  font-size: 48px;
+  font-weight: 500;
+}
+
+.made-subtitle {
+  font-size: 14px;
+  color: #94a3b8;
+}
+
+.made-images {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.made-img-large {
+  width: 1282px;
+  max-width: 100%;
+}
+
+.made-row {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+
+.made-img-medium {
+  width: 630px;
+  max-width: 100%;
+}

@@ -4,7 +4,7 @@ import "./Header.scss";
 
 export const navLinks = [
   { id: 1, name: "features", href: "/features" },
-  { id: 2, name: "pricing", href: "/pricing" },
+  { id: 2, name: "price", href: "/price" },
   { id: 3, name: "how to use", href: "/how-to-use" },
   { id: 4, name: "roadmap", href: "/roadmap" },
 ];
@@ -19,7 +19,6 @@ export default function Header() {
       <div className="container">
         <div className="header-item">
 
-          {/* Логотип → главная */}
           <NavLink to="/" className="header-logo" onClick={closeMobileMenu}>
             <img src="/logo.svg" alt="Logo" />
           </NavLink>

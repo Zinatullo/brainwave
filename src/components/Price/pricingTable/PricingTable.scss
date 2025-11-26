@@ -1,0 +1,151 @@
+.pay-nav-title{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    h4{
+        font-family: Space Grotesk;
+font-weight: 400;
+font-style: Regular;
+font-size: 12px;
+line-height: 16px;
+letter-spacing: 15%;
+text-align: center;
+text-transform: uppercase;
+
+    }
+}
+.pay-nav-cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.pay-nav-card{
+    display: flex;
+    gap: 20px;
+    h5{
+        font-family: Sora;
+font-weight: 700;
+font-style: Bold;
+font-size: 20px;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: center;
+
+        color: #757185;
+    }
+}
+
+
+.pricing-table {
+  color: white;
+  margin-top: 120px;
+  width: 100%;
+  overflow-x: auto;
+  h2{
+    font-family: Sora;
+font-weight: 400;
+font-style: Regular;
+font-size: 48px;
+line-height: 60px;
+letter-spacing: 0%;
+text-align: center;
+
+  }
+}
+
+.pricing-table table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.pricing-table th,
+.pricing-table td {
+  padding: 25px 20px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.pricing-table th {
+  font-family: Sora;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.basic-table {
+  color: #ffc876;
+}
+.premium-table {
+  color: #ac6aff;
+}
+.enterprise-table {
+  color: #ff776f;
+}
+
+.feature {
+  font-family: Sora;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.pricing-table td.feature,
+.pricing-table th.feature {
+  text-align: left;
+  font-weight: 500;
+  color: white;
+  width: 45%;
+}
+
+.check-icon {
+  width: 24px;
+  height: 24px;
+  display: block;
+  margin: 0 auto;
+}
+
+.empty-cell {
+  display: block;
+  width: 24px;
+  height: 24px;
+  margin: 0 auto;
+}
+
+.text-value {
+  display: block;
+  min-height: 24px;
+  line-height: 24px;
+}
+@media (max-width:1024px) {
+      .none-1{
+        display: none;
+    }
+}
+@media (max-width:768px) {
+      .none-2{
+        display: none;
+    }
+}
+@media (max-width:375px) {
+      .pay-nav{
+        display: none;
+    }
+}
+.hide-mobile {
+  @media (max-width: 375px) {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .pricing-table {
+    margin-top: 80px;
+  }
+  .pricing-table th,
+  .pricing-table td {
+    padding: 14px 12px;
+    font-size: 15px;
+  }
+}

@@ -1,0 +1,92 @@
+.connect {
+  padding: 92px 32px;
+}
+
+.connect-inner {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 76px;
+}
+
+.connect-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 116px;
+}
+
+.connect-image img {
+  width: 600px;
+}
+
+.connect-text {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  max-width: 400px;
+}
+
+.connect-label {
+  font-size: 14px;
+  color: #94a3b8;
+  font-weight: 500;
+}
+
+.connect-title {
+  font-size: 48px;
+  font-weight: 500;
+}
+
+.connect-desc {
+  font-size: 14px;
+  color: #94a3b8;
+  font-weight: 500;
+  line-height: 1.6;
+}
+
+.connect-btn {
+  width: 210px;
+  padding: 12px 32px;
+  border: 1px solid white;
+  border-radius: 16px;
+  background: transparent;
+  color: white;
+  font-size: 14px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.connect-steps {
+  display: flex;
+  gap: 76px;
+  justify-content: center;
+}
+
+.step {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  max-width: 340px;
+}
+
+.step-info {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.step-number {
+  font-size: 14px;
+  color: #94a3b8;
+}
+
+.step-title {
+  font-size: 24px;
+}
+
+.step-desc {
+  color: #94a3b8;
+  line-height: 1.6;
+}

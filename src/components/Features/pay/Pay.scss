@@ -1,0 +1,98 @@
+.home{
+color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    h1{
+        font-family: Sora;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 57px;
+line-height: 72px;
+letter-spacing: 0%;
+width: 403px;
+    }p{
+        font-family: Sora;
+font-weight: 400;
+font-style: Regular;
+font-size: 24px;
+line-height: 36px;
+letter-spacing: 0%;
+width: 403px;
+color: #757185;
+    }
+}
+@media (max-width:1440px) {
+    .pay-img{
+        width: 550px;
+        height: 600px;
+    }
+    .home{
+        h1{
+            font-family: Sora;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 52px;
+line-height: 65px;
+letter-spacing: 0%;
+width: 473px;
+        }p{
+            font-family: Sora;
+font-weight: 400;
+font-style: Regular;
+font-size: 24px;
+line-height: 36px;
+letter-spacing: 0%;
+
+        }
+    }
+}
+@media (max-width:1024px) {
+    .home{
+        h1{
+            font-family: Sora;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 52px;
+line-height: 65px;
+letter-spacing: 0%;
+width: 351px;
+        }p{
+            font-family: Sora;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 18px;
+line-height: 32px;
+letter-spacing: 0%;
+width: 331px;
+        }
+    }.pay-img{
+        width: 456px;
+        height: 498px;
+    }
+}
+@media (max-width:768px) {
+    .home{
+        .pay-img{
+            position: relative;
+        }
+    }
+}
+@media (max-width:375px) {
+    .home{
+        margin-top: 50px;
+        flex-wrap: wrap;
+        text-align: left;
+        h1{
+            font-family: Sora;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 44px;
+line-height: 60px;
+letter-spacing: 0%;
+width: 300px;
+        }.pay-img{
+            width: 456px;
+        }
+    }
+}

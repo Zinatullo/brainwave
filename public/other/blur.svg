@@ -1,0 +1,35 @@
+<svg width="942" height="942" viewBox="0 0 942 942" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g style="mix-blend-mode:color-dodge" opacity="0.5" clip-path="url(#clip0_2161_20756)" filter="url(#filter0_f_2161_20756)">
+<path d="M771.006 170.007H170.006V771.007H771.006V170.007Z" fill="black"/>
+<path d="M771.006 170.007H170.006V771.007H771.006V170.007Z" fill="#907CFF" fill-opacity="0.387813"/>
+<mask id="mask0_2161_20756" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="170" y="170" width="602" height="602">
+<path d="M771.006 170.007H170.006V771.007H771.006V170.007Z" fill="white"/>
+</mask>
+<g mask="url(#mask0_2161_20756)">
+<g filter="url(#filter1_f_2161_20756)">
+<path d="M677.852 271.05H208.32V644.045H677.852V271.05Z" fill="#18A0FB"/>
+<path d="M744.337 190.666H325.891V511.825H744.337V190.666Z" fill="#F2371F"/>
+<path d="M911.49 225.6H447.969V577.56H911.49V225.6Z" fill="#EE46D3"/>
+<path d="M707.15 459.238H377.727V772.51H707.15V459.238Z" fill="#00C5DF"/>
+</g>
+</g>
+<g style="mix-blend-mode:overlay">
+<path d="M771.006 170.007H170.006V771.007H771.006V170.007Z" fill="#808080"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_f_2161_20756" x="-0.000762939" y="0.000213623" width="941.013" height="941.013" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="85.0033" result="effect1_foregroundBlur_2161_20756"/>
+</filter>
+<filter id="filter1_f_2161_20756" x="20.5078" y="2.85353" width="1078.79" height="957.469" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="93.9062" result="effect1_foregroundBlur_2161_20756"/>
+</filter>
+<clipPath id="clip0_2161_20756">
+<rect width="601" height="601" fill="white" transform="translate(170.006 170.007)"/>
+</clipPath>
+</defs>
+</svg>

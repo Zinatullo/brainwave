@@ -1,0 +1,51 @@
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 22px 22px;
+    button{
+        text-decoration: none;
+        padding: 12px 24px;
+        color: white;
+        background: #0E0C15;
+        font-weight: 600;
+        font-family: monospace;
+        letter-spacing: 2px;
+        border: 2px solid transparent;
+        border-radius: 12px;
+        border-top-right-radius: 30px;
+        border-image-slice: 1;
+        border-image-source: linear-gradient(
+                    90deg,
+                    #7cf8ff,
+                    #6ee7f5,
+                    #a58dff,
+                    #f797ff,
+                    #ffb56b
+                );
+        cursor: pointer;
+        white-space: nowrap;
+        flex-shrink: 0;
+        transition: all 0.3s ease;
+    }
+    
+}
+.corner{
+    position: absolute;
+    top:40px;
+    left: 40px;
+    width: 95%;
+    z-index: -1;
+    }
+.bg{
+    position: absolute;
+    top: 0;
+    z-index: -2;
+
+}
+
+.dots{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+}

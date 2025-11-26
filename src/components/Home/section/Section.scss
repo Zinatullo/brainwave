@@ -1,0 +1,71 @@
+.section {
+  .section-item {
+    margin-top: 112px;
+    text-align: center;
+    button {
+      width: 109px;
+      height: 44px;
+      margin: 0 auto;
+      background-color: #fff;
+      border-radius: 10px 30px 10px 10px;
+      color: black;
+      border: none;
+    }
+    .ghost-browser {
+      width: 1024px;
+      height: 575px;
+      margin: 100px auto 0;
+    }
+    .circle {
+      position: absolute;
+      top: 80px;
+      left: 326px;
+      width: 1248px;
+      height: 1248px;
+      z-index: -4;
+    }
+    .header-blur {
+      position: absolute;
+      top: 222px;
+      z-index: -2;
+      opacity: 1;
+      mix-blend-mode: Color dodge;
+      left: 268px;
+      filter: blur(131px);
+
+      width: 905px;
+      height: 905px;
+    }
+    .header-overlay {
+      position: absolute;
+      top: 0;
+      left: 240px;
+      right: 240px;
+      width: 1440px;
+      height: 1434px;
+      z-index: -3;
+    }
+    .header-rgb {
+      position: absolute;
+      top: 336px;
+      right: 510px;
+      width: 311px;
+      height: 8;
+      opacity: 1;
+      border-width: 6px;
+      border-radius: 4px;
+    }
+  }
+  .header-navs {
+    margin-top: 250px;
+    margin-bottom: 50px;
+
+    display: flex;
+    justify-content: space-evenly;
+    .header-nav {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+  }
+}

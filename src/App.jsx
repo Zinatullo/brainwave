@@ -1,19 +1,22 @@
 import React from 'react';
-import Header from './components/Header'; // если используешь внутри MainLayout
-import MainLayout from './layout/MainLayout'; // ← правильный путь (src не нужен)
+import MainLayout from './layout/MainLayout';
 import './App.css';
-import { Route, Routes } from 'react-router-dom'; // ← dom в конце!
-
-import Home from './components/Home';
+import { Route, Routes } from 'react-router-dom'; 
+  import Home from './pages/Home/Home';
 import Features from './pages/Features/Features';
+import Register from './pages/Register/Register';
+import Price from './pages/Price/Price'
 
 function App() {
   return (
     <Routes>
       <Route element={<MainLayout />}>
         <Route path="/" element={<Home />} />           
-        <Route index element={<Home />} />              
         <Route path="/features" element={<Features />} />
+        <Route path='/register' element={<Register/>}/>
+        <Route path='/price' element ={<Price/>}/>
+        <Route path='/howtouse'/>
+        <Route path='/roadmap'/>
       </Route>
 
     </Routes>

@@ -1,0 +1,27 @@
+.comment{
+    h2{
+        font-family: Source Code Pro;
+font-weight: 400;
+font-style: Regular;
+font-size: 32px;
+line-height: 40px;
+letter-spacing: 0%;
+                                                                                                    display: none;
+    }
+    margin-top: 150px;
+.img-com{
+        width: 1280px;
+height: 476px;
+    margin: 0 auto;
+}
+
+
+}
+@media (max-width:1440px) {
+    .comment{
+        h2{
+            font-size: 32px;
+            width: 50px;
+        }
+    }
+}
