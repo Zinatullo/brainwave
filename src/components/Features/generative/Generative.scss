@@ -9,11 +9,45 @@
     max-width: 900px;
     margin: 0 auto 80px auto;
   }
-  .gen {
+  .smart-images {
     display: flex;
     align-items: center;
     max-width: 1300px;
     margin: 0 auto;
+    h3 {
+      font-family: Sora;
+      font-weight: 400;
+      font-style: Regular;
+      font-size: 32px;
+      line-height: 48px;
+      letter-spacing: 0%;
+    }
+    p {
+      font-family: Sora;
+      font-weight: 300;
+      font-style: Light;
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: 0%;
+    }
+    .smart-robot {
+      background: #15131d;
+      padding: 25px;
+      width: 640px;
+      border-radius: 20px;
+      .smart-r-content {
+        margin-left: 40px;
+        width: 502px;
+      }
+      .smart-navs {
+        display: flex;
+        gap: 45px;
+        img {
+          width: 60px;
+          height: 60px;
+        }
+      }
+    }
   }
 
   h2 {
@@ -72,9 +106,20 @@
 
 @media (max-width: 768px) {
   .generative {
-    .gen {
+    .smart-images {
       display: block;
       margin: 0 25px;
+      .smart-robot {
+        .smart-r-content {
+          width: auto;
+          p {
+            width: auto;
+          }
+        }
+      }
+      .smart-robot {
+        width: 95%;
+      }
     }
     text-align: left;
     margin-top: 100px;
@@ -91,12 +136,42 @@
 }
 
 @media (max-width: 375px) {
-  h2 {
-    font-size: 16px;
-    line-height: 42px;
+  .smart-hiden {
+    display: none;
   }
-  p {
-    font-size: 1px;
-    max-width: 335px;
+  .generative {
+    .smart-images {
+      
+      display: block;
+      margin: 0 25px;
+      .smart-robot {
+        .smart-r-content {
+          margin-left: 0;
+          h3{
+            font-size: 24px;
+          }p{
+            font-size: 16px;
+          }
+            .smart-navs {
+    gap: 20px;
   }
+          width: auto;
+          p {
+            width: auto;
+          }
+        }
+      }
+    }
+    h2 {
+      font-size: 16px;
+      line-height: 42px;
+    }
+    p {
+      font-size: 8px;
+      line-height: 2;
+      max-width: 335px;
+    }
+  }
+
+
 }

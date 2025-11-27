@@ -1,0 +1,66 @@
+h1{
+    font-family: Sora;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 60px;
+line-height: 72px;
+letter-spacing: 0%;
+
+}
+p{
+    color: #CAC6DD;
+    font-family: Sora;
+font-weight: 400;
+font-style: Regular;
+font-size: 20px;
+line-height: 32px;
+letter-spacing: 0%;
+
+}h2{
+    font-family: Sora;
+font-weight: 400;
+font-style: Regular;
+font-size: 48px;
+line-height: 60px;
+letter-spacing: 0%;
+
+}span{
+    font-family: Sora;
+font-weight: 400;
+font-style: Regular;
+font-size: 24px;
+line-height: 32px;
+letter-spacing: 0%;
+
+
+}
+b{
+font-family: Sora;
+font-weight: 700;
+font-style: Bold;
+font-size: 28px;
+line-height: 28px;
+letter-spacing: 0%;
+
+}
+.btn-active{
+                    text-decoration: none;
+                padding: 12px 24px;
+                background: #0D0D0D;
+                color: white;
+                font-weight: 600;
+                font-family: monospace;
+                letter-spacing: 2px;
+                border: 2px solid transparent;
+                border-radius: 12px;
+                border-top-right-radius: 30px;
+                border-image-slice: 1;
+                border-image-source: linear-gradient(
+                    90deg,
+                    #7cf8ff,
+                    #6ee7f5,
+                    #a58dff,
+                    #f797ff,
+                    #ffb56b
+                );
+}

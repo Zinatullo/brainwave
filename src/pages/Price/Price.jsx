@@ -1,5 +1,4 @@
 import React from 'react'
-import Community from '../../components/Price/community/Community'
 import Pay from '../../components/Price/pay/Pay'
 import PricingTable from '../../components/Price/pricingTable/PricingTable'
 import Brainwave from '../../components/Features/brainwave/Brainwave'
@@ -11,9 +10,6 @@ export default function Price() {
     <Pay/>
     <section>
       <PricingTable/>
-    </section>
-    <section>
-      <Community/>
     </section>
     <section>
       <Questions/>
